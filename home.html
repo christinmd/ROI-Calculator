@@ -15,40 +15,6 @@
     </head>
 	<body>
 
-
-    <?php
-
-$total = 0; 
- 
-$total2 = 0; 
-$total3 = 0; 
-$total4 = 0; 
-$total5 = 0; 
-
-
-
-    if(isset($_POST['submit'])){
-
-    
-        
-            
-                    $total1 = (($_POST['num2'] /12) - (($_POST['num2']/12) - ($_POST['num2'] * 0.17))) * $_POST['num1'];
-                   
-                    $total2 = $_POST['num3'] * 2854.40 * 0.25;
-                
-                    $recruiter_placements = $_POST['num4']* $_POST['num6']; 
-                    $salesplacements = ($_POST['num5']*	$_POST['num7']);
-                    $totalplacements = $recruiter_placements + $salesplacements;
-                    $total3 = $totalplacements * 31200 * 0.10;
-                
-                    $total4 = $total + $total2 + $total3;
-
-        }     
-
-        
- ?>
-
-
 	
     <div class="container" style="margin-top: 50px; margin-bottom: 50px">
     <h1 class = "title"> Chameleon ROI Calculator </h1>
